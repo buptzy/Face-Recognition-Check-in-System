@@ -178,7 +178,7 @@ class signin(Sign):
     def word_get(self):
         login_user = self.lineEdit.text()
         login_password = self.lineEdit_2.text()
-        if login_user == 'admin' and login_password == 'zouyan1999':
+        if login_user == '用户' and login_password == '密码':
             mywin.show()
             MainWindow.close()
         else:
